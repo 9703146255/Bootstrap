@@ -1,0 +1,353 @@
+==================================
+1. Layout Utilities
+==================================
+-----------
+Containers:
+-----------
+.container (fixed-width)
+.container-fluid (full-width)
+------------------------------------------------------
+Grid System (12-column responsive grid layout):   
+------------------------------------------------------
+.row – Container for columns
+.col, .col-{breakpoint}-{size} – Columns with optional breakpoints (e.g., col-md-6)
+Breakpoints:
+xs (<576px),
+sm (≥576px),
+md (≥768px),
+lg (≥992px),
+xl (≥1200px),
+xxl (≥1400px)
+==================================
+2. Flexbox Utilities
+==================================
+----------------------
+Alignment:
+----------------------
+.d-flex – Apply flexbox
+
+.align-items-start, .align-items-center, .align-items-end 	[start,center,end]
+
+.justify-content-start, .justify-content-center, .justify-content-end, .justify-content-between [start,center,end,between]
+----------------------
+Flex direction:
+----------------------
+.flex-row, .flex-column,
+
+.flex-row-reverse, .flex-column-reverse
+----------------------
+Wrap and grow:
+----------------------
+.flex-wrap, .flex-nowrap,
+.flex-grow-1, .flex-shrink-0
+==================================
+3. Spacing Utilities
+==================================
+
+Margin (m-{side}-{size}):
+.m-0, .m-1, .m-2, .m-3, .m-4, .m-5, .m-auto
+----------------------
+----------------------
+Side:
+----------------------
+
+t (top),
+b (bottom),
+l (left),
+r (right),
+x (left & right),
+y (top & bottom)
+Padding (p-{side}-{size}):
+Same as margin classes, but use p for padding.
+==================================
+4. Typography Utilities
+==================================
+----------------------
+Headings:
+----------------------
+.h1, .h2, .h3, .h4, .h5, .h6
+.display-1, .display-2, .display-3, .display-4 (large headings)
+
+----------------------
+Text alignment:
+----------------------
+.text-left, .text-center, .text-right, .text-justify
+----------------------
+Text color:
+----------------------
+.text-primary, 
+.text-secondary, 
+.text-success, 
+.text-danger, 
+.text-warning, 
+.text-info, 
+.text-light,
+.text-dark, 
+.text-white, 
+.text-muted
+----------------------
+Font weight and italics:
+----------------------
+.font-weight-bold,
+.font-weight-normal,
+.font-italic
+==================================
+5. Background Utilities
+==================================
+----------------------
+Background color:
+----------------------
+.bg-primary, 
+.bg-secondary,
+.bg-success, 
+.bg-danger, 
+.bg-warning, 
+.bg-info, 
+.bg-light, 
+.bg-dark, 
+.bg-white, 
+.bg-transparent
+----------------------
+Background gradient:
+----------------------
+.bg-gradient – Applies gradient to background
+==================================
+6. Border Utilities
+==================================
+----------------------
+Border color:
+----------------------
+.border-primary,
+ .border-secondary,
+  .border-success,
+   .border-danger,
+    .border-warning,
+     .border-info,
+      .border-light,
+       .border-dark,
+        .border-white
+----------------------        
+Border width:
+----------------------
+.border-0, 
+.border-1, 
+.border-2,
+ .border-3, 
+ .border-4,
+  .border-5
+----------------------
+Border radius:
+----------------------
+.rounded, 
+.rounded-circle, 
+.rounded-pill, 
+.rounded-0
+==================================
+7. Positioning Utilities
+==================================
+----------------------
+Position types:
+----------------------
+.position-static, 
+.position-relative, 
+.position-absolute, 
+.position-fixed, 
+.position-sticky
+----------------------
+Position offsets:
+----------------------
+.top-0, 
+.bottom-0, 
+.start-0, 
+.end-0, 
+.top-50, 
+.translate-middle
+==================================
+8. Display Utilities
+==================================
+----------------------
+Display properties:
+----------------------
+.d-none, 
+.d-inline, 
+.d-inline-block, 
+.d-block, 
+.d-flex, 
+.d-grid, 
+.d-inline-flex
+----------------------
+Responsive display:
+----------------------
+.d-{breakpoint}-none, 
+.d-{breakpoint}-block,
+.d-{breakpoint}-inline-block
+==================================
+9. Sizing Utilities
+==================================
+----------------------
+Width and height:
+----------------------
+.w-25,
+ .w-50,
+  .w-75,
+   .w-100, 
+   .w-auto
+
+.h-25,
+ .h-50,
+  .h-75,
+   .h-100,
+    .h-auto
+ ----------------------   
+Max-width and max-height:
+----------------------
+.mw-100, .mh-100
+==================================
+10. Visibility Utilities
+==================================
+----------------------
+Responsive visibility:
+----------------------
+.visible (deprecated),
+.invisible
+.visible-{breakpoint},
+.invisible-{breakpoint}
+==================================
+11. Text Utilities
+==================================
+----------------------
+Truncate text:
+----------------------
+.text-truncate – Truncates long text with ellipsis
+----------------------
+Text wrapping:
+----------------------
+.text-wrap, .text-nowrap
+==================================
+12. Responsive Utilities
+==================================
+----------------------
+Media queries:
+----------------------
+.d-{breakpoint}-none, .d-{breakpoint}-block, .d-{breakpoint}-inline
+==================================
+13. Buttons
+==================================
+----------------------
+Button styles:
+----------------------
+.btn, 
+.btn-primary,
+ .btn-secondary, 
+ .btn-success,
+  .btn-danger,
+   .btn-warning,
+    .btn-info,
+     .btn-light,
+      .btn-dark,
+       .btn-link
+
+----------------------
+Button size:
+----------------------
+.btn-lg, .btn-sm
+==================================
+14. Forms
+==================================
+----------------------
+Form control:
+----------------------
+.form-control
+.form-check, 
+.form-check-input, 
+.form-check-label
+
+----------------------
+Form groups:
+----------------------
+.form-group, 
+.input-group, 
+.input-group-prepend, 
+.input-group-append
+==================================
+15. Tables
+==================================
+----------------------
+Table styling:
+----------------------
+.table, 
+.table-striped,
+.table-bordered, 
+.table-hover,
+.table-dark, 
+.table-responsive
+----------------------
+Table sizes:
+----------------------
+.table-sm
+==================================
+16. Images
+==================================
+----------------------
+Responsive images:
+----------------------
+.img-fluid
+----------------------
+Image shapes:
+----------------------
+.rounded, 
+.rounded-circle, 
+.img-thumbnail
+==================================
+17. Modals
+==================================
+----------------------
+Modal display:
+----------------------
+.modal, 
+.modal-dialog, 
+.modal-content, 
+.modal-header, 
+.modal-body, 
+.modal-footer
+==================================
+18. Navbar
+==================================
+
+Navbar styling:
+.navbar,
+.navbar-light,
+ .navbar-dark,
+  .bg-light,
+   .bg-dark
+--------------------------------- 
+Navbar expand:
+---------------------------------
+.navbar-expand-lg, .navbar-expand-md
+==================================
+19. Pagination
+==================================
+
+Pagination classes:
+.pagination,
+ .page-item,
+  .page-link
+  
+Pagination size:
+.pagination-lg, .pagination-sm
+==================================
+20. Utilities for Print
+==================================
+
+Print-specific classes:
+.d-print-none, .d-print-inline, .d-print-block
+==================================
+21. Custom CSS Variables
+==================================
+
+Colors:
+--bs-primary, --bs-secondary, --bs-success, etc.
+Spacing:
+--bs-gutter-x, --bs-gutter-y
+Font:
+--bs-font-size, --bs-line-height
